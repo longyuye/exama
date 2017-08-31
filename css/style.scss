@@ -20,5 +20,51 @@ body,html,.wrap{ width:100%; height:100%;}
 
 
 .wrap{
+    header{
+        margin: 1rem auto;
+        width: 50%;
+        p{
+            height: 1rem;
+            line-height: 1rem;
+            font-size: 0.45rem;
+            text-align: center;
 
+        }
+        img{
+            width: 100%;
+        }
+    }
+
+
+}
+
+.main{
+    width: 100%;
+    section{
+        width: 100%;
+        height:3rem;
+        margin-left:1rem;
+        font-size: .36rem;
+        img{
+            width: .5rem;
+        }
+        input{
+            padding-left: .3rem;
+            width: 4.5rem;
+            height: 1rem;
+            border:0;
+            border-bottom:1px solid #ccc;
+        }
+    }
+}
+.btn{
+    width: 80%;
+    margin: 0 auto;
+    height: 1rem;
+    line-height: 1rem;
+    border-radius:0.04rem;
+    text-align: center;
+    background: green;
+    color:#fff;
+    font-size: 0.32rem;
 }
